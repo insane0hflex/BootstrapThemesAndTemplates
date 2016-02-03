@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="Resume of First Last">
+    <meta name="description" content="blog template">
     <meta name="author" content="Author Name">
     <link rel="icon" href="img/favicon.ico">
 
-    <title>Bootstrap</title>
+    <title>Bootstrap Blog Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +17,11 @@
     <!-- My Custom Styles -->
     <link href="css/styles.css" rel="stylesheet">
 
+    <style>
+        .footer {
+            margin-top: 30px;
+        }
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -49,33 +54,46 @@
         </div>
     </nav>
 
-    <div class="jumbotron" style="background-color:#eeeeee;">
+    <div class="jumbotron">
         <div class="container">
-            <div class="col-md-12">
-                <h1>Jumbotron heading</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+            <h1>Blog template example</h1>
+            <p>
+                Simple starting layout for a blog.
+            </p>
         </div>
     </div>
 
     <div class="container">
-
-        <div class="col-md-7">
-            <div class="row">
+        <div class="row">
+            <div class="col-md-7">
                 <h1>Blog Content</h1>
-            </div>
-            <div class="row">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla eros dignissim augue eleifend aliquet. Suspendisse nisi libero, faucibus sit amet consequat tempor, tincidunt nec nunc. Proin non metus in ipsum fermentum finibus. Cras at rhoncus diam. Proin hendrerit et quam in aliquam. Pellentesque arcu sem, tempus ac sollicitudin non, dignissim in eros. Maecenas lacinia eu lectus ac lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce a rutrum dolor. Pellentesque luctus iaculis mi eget scelerisque. Praesent nec quam eget enim venenatis dictum. Pellentesque pharetra enim at nibh elementum convallis. Maecenas ut pulvinar lorem.
                 </p>
+
+                <img class="img-responsive text-center" src="img/skyrimPlaceholder1.jpg" style="padding: 3% 0;" />
+                
                 <p>
-                    Nullam cursus gravida ipsum, eu blandit nulla interdum eget. Integer a volutpat magna. Mauris diam nisi, blandit eu convallis eget, semper et ipsum. Sed ante est, hendrerit ut nisl a, consectetur egestas libero. In elementum metus sit amet nibh semper, eleifend varius ligula rutrum. Praesent cursus cursus fringilla. In nec pulvinar dui. Vestibulum tempor a nisl quis ultrices. Quisque viverra orci at iaculis viverra. Aliquam eu dictum lacus, a lacinia ante. Mauris a nisi lectus. Integer mi elit, pellentesque vitae malesuada et, eleifend eget erat. Donec suscipit sagittis neque eu pulvinar. Nam maximus gravida ligula, sit amet scelerisque urna eleifend nec.
+                    List example
                 </p>
+
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
+
+                <p>
+                    Code example
+                </p>
+<pre>
+    public static void Main(string args[]) {
+        Console.WriteLine("Example code");
+    }
+</pre>
 
                 <hr />
-
                 <h2>Section two</h2>
-
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla eros dignissim augue eleifend aliquet. Suspendisse nisi libero, faucibus sit amet consequat tempor, tincidunt nec nunc. Proin non metus in ipsum fermentum finibus. Cras at rhoncus diam. Proin hendrerit et quam in aliquam. Pellentesque arcu sem, tempus ac sollicitudin non, dignissim in eros. Maecenas lacinia eu lectus ac lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce a rutrum dolor. Pellentesque luctus iaculis mi eget scelerisque. Praesent nec quam eget enim venenatis dictum. Pellentesque pharetra enim at nibh elementum convallis. Maecenas ut pulvinar lorem.
                 </p>
@@ -83,46 +101,51 @@
                     Nullam cursus gravida ipsum, eu blandit nulla interdum eget. Integer a volutpat magna. Mauris diam nisi, blandit eu convallis eget, semper et ipsum. Sed ante est, hendrerit ut nisl a, consectetur egestas libero. In elementum metus sit amet nibh semper, eleifend varius ligula rutrum. Praesent cursus cursus fringilla. In nec pulvinar dui. Vestibulum tempor a nisl quis ultrices. Quisque viverra orci at iaculis viverra. Aliquam eu dictum lacus, a lacinia ante. Mauris a nisi lectus. Integer mi elit, pellentesque vitae malesuada et, eleifend eget erat. Donec suscipit sagittis neque eu pulvinar. Nam maximus gravida ligula, sit amet scelerisque urna eleifend nec.
                 </p>
 
-
             </div>
-        </div>
+        
+            <!-- Spacer Div -->
+            <div class="col-md-1"></div>
 
-        <!-- Spacer Div -->
-        <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <h3>Sidebar</h3>
+                <ul>
+                    <li><a href="#">Blog Link #1</a></li>
+                    <li><a href="#">Blog Link #2</a></li>
+                    <li><a href="#">Blog Link #3</a></li>
+                    <li><a href="#">Blog Link #4</a></li>
+                </ul>
+                
+                <hr />
+                
+                <h3>Archives</h3>
+                <ul>
+                    <li><a href="#">March 2016</a></li>
+                    <li><a href="#">February 2016</a></li>
+                    <li><a href="#">January 2016</a></li>
+                </ul>
 
-        <div class="col-md-4">
-            <h3>Sidebar</h3>
-            <ul>
-                <li><a href="#">Blog Link #1</a></li>
-                <li><a href="#">Blog Link #2</a></li>
-                <li><a href="#">Blog Link #3</a></li>
-                <li><a href="#">Blog Link #4</a></li>
-            </ul>
+                <hr />
+                <h3>Tags</h3>
+                <ul style="list-style:none;">
+                    <li>#programming</li>
+                    <li>#bootstrap</li>
+                    <li>#word cloud tags</li>
+                    <li>#bootstrap templates</li>
+                    <li>#my blog</li>
+                </ul>
 
-            <hr />
-
-            <h3>Tags</h3>
-            <ul style="list-style:none;">
-                <li>#programming</li>
-                <li>#bootstrap</li>
-                <li>#word cloud tags</li>
-                <li>#bootstrap templates</li>
-                <li>#my blog</li>
-            </ul>
-
-
-            <hr />
-
-            <h3>Advertisement</h3>
-            <div style="background-color:gray;height:300px;">
+                <hr />
+                <h3>Advertisement</h3>
+                <div style="background-color:gray;height:300px;">
+                </div>
             </div>
-        </div>
 
+        </div> <!-- /.row --> 
+    </div><!-- /.container -->
 
-
-    </div>
-
-
+    <footer class="footer">
+        <p class="text-muted text-center">&copy; copyright 2016</p>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
