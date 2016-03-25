@@ -1,6 +1,10 @@
 # BootstrapThemesAndTemplates
 My bootstrap based themes and templates
 
+#ToDos
+* ~~starter template~~
+* more templates
+* gh-pages branch for examples
 
 wip
 
